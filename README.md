@@ -3,7 +3,7 @@
 * [install ansible-builder](https://ansible-builder.readthedocs.io/en/stable/installation/).
 
 ### Install ansible-builder
-* Installed on WSL Ubuntu24.04 with python 3.10
+* Installed on WSL Ubuntu24.04 with python 3.10 that has docker and podman installed.
 1. pip3 install ansible-builder
 
 ### Build awx-218-ee 
