@@ -8,8 +8,8 @@ dependencies:
     package_system: python3.11
     python_path: /usr/bin/python3.11
   ansible_core:
-    # Require minimum of 2.18 to get ansible-inventory --limit option
-    package_pip: ansible-core>=2.18.0,<2.19
+    # Require minimum of 2.18 to get ansible-inventory --limit option # Updated by christopher sargent 04232024
+    package_pip: ansible-core>=2.18.0,<2.19                           # Updated by christopher sargent 04232024
   ansible_runner:
     package_pip: ansible-runner
   galaxy: |
@@ -29,10 +29,10 @@ dependencies:
       - name: ansible.windows
       - name: redhatinsights.insights
       - name: kubevirt.core
-      - name: community.docker
-      - name: ansible.utils
-      - name: community.general
-      - name: community.crypto
+      - name: community.docker  # Updated by christopher sargent 04232024
+      - name: ansible.utils     # Updated by christopher sargent 04232024
+      - name: community.general # Updated by christopher sargent 04232024
+      - name: community.crypto  # Updated by christopher sargent 04232024
   system: |
     git-core [platform:rpm]
     python3.11-devel [platform:rpm compile]
