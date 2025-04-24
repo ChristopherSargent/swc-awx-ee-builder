@@ -2,7 +2,11 @@
 * [awx-ee](https://github.com/ansible/awx-ee)
 * [install ansible-builder](https://ansible-builder.readthedocs.io/en/stable/installation/).
 
-## Build awx-218-ee 
+### Install ansible-builder
+* Installed on WSL Ubuntu24.04
+1. pip3 install ansible-builder
+
+### Build awx-218-ee 
 * Add ansible core 2.18.5, community.docker, ansible.utils, community.general and community.crypto
 
 1. cp execution-environment.yml execution-environment.yml.ORIG
